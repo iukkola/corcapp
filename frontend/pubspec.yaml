@@ -1,0 +1,47 @@
+name: corc_app
+description: Carbon Credit app for farmers
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP client
+  http: ^1.1.0
+  
+  # Maps and location
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  permission_handler: ^11.0.1
+  
+  # Charts for NDVI visualization
+  fl_chart: ^0.66.0
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # Image handling
+  image_picker: ^1.0.4
+  
+  # UI components
+  cupertino_icons: ^1.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
